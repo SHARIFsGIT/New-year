@@ -2,3 +2,79 @@
   margin: 0px;
   font-family: "Open Sans", "Poppins", "Work Sans", sans-serif;
 }
+/* header section */
+.banner {
+  background-image: url("../images/banner/1920\ width.jpg");
+  background-repeat: no-repeat;
+  width: 1900px;
+  height: 700px;
+}
+.banner_text {
+  text-align: right;
+}
+.banner_text h2 {
+  padding-top: 120px;
+  padding-left: 1300px;
+  width: 525px;
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+}
+.banner_text p {
+  width: 525px;
+  padding-top: 20px;
+  padding-left: 1300px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.banner_text button {
+  margin-top: 35px;
+  margin-right: 75px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: 0px;
+}
+/* fail section */
+.fail {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.fail_image {
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+}
+.fail_list {
+  justify-content: center;
+  padding-top: 200px;
+  padding-left: 250px;
+}
+.fail_list h4 {
+  width: 288px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.fail_list p {
+  width: 416px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.fail_list ul{
+  list-style: none;
+  padding-left: 0px;
+}
